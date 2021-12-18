@@ -1,3 +1,7 @@
+import PageHeader from "../../components/PageHeader";
+
 export default function Home() {
-  return <h1>Edit Contact</h1>
+  return (
+    <PageHeader title="Editar Contato"/>
+  )
 }
