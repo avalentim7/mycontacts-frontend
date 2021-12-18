@@ -2,9 +2,8 @@ import styled from 'styled-components'
 
 export const Container = styled.header`
   display: flex;
-  margin-top: 74px;
-  justify-content: center;
   flex-direction: column;
+  margin-top: 74px;
   align-items: center;
 `;
 
@@ -23,7 +22,7 @@ export const InputSearchContainer = styled.div`
     padding: 0 16px;
 
     &::placeholder {
-      color: #bcbcbc;
+      color: ${({theme}) => theme.colors.gray[200]};
     }
   }
 `;
