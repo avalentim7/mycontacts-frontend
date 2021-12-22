@@ -3,10 +3,12 @@ import arrow from '../../assets/images/arrow.svg';
 import trash from '../../assets/images/trash.svg';
 import edit from '../../assets/images/edit.svg';
 import { Link } from "react-router-dom";
+import Modal from "../../components/Modal";
 
 export default function Home() {
   return (
     <Container>
+      <Modal/>
       <InputSearchContainer>
         <input type="text" placeholder="Pesquise pelo nome..." />
       </InputSearchContainer>
